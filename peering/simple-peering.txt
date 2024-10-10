@@ -1,0 +1,42 @@
+# Simple-peering.txt
+
+AWS VPC Peering Planning Document
+---------------------------------
+
+Me:
+
+VPC CIDR: 
+Account ID: 
+VPC ID: 
+EC2 Private IP:  
+
+---------------------------------
+
+Other Person: 
+
+VPC CIDR: 
+Account ID: 
+VPC ID: 
+EC2 Private IP: 
+
+---------------------------------
+
+Steps:
+1) Create custom VPC  ---
+2) Create SG with ICMP, HTTP, and SSH ---
+3) Launch EC2 instance in custom VPC with appropriate SG plus a key pair --
+4) Verify you can SSH into EC2 and that you can ping it ---
+5) Create cross-account peering connection (or accept the request)
+6) In custom VPC's route table add requester CIDR and PCX connection 
+7) Verify cross account peer connectivity via ping or if hosting a web server, with curl
+
+---------------------------------
+
+Tear Down: 
+1) Terminate EC2 Instances
+2) Delete SGs 
+3) Delete Routes associated with peering connection
+4a) (if created) Delete NAT Gateways
+4b) Release elastic IP addresses associated with NAT resources or EC2s (if used)
+5) Delete VPC
+
