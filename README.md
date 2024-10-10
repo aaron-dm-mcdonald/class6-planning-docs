@@ -10,5 +10,5 @@
    
 
 2) Local planning document   
-    - [Use copy/paste or...](https://github.com/aaron-dm-mcdonald/class6-planning-docs/blob/main/peering/simple-peering.txt)
+    - [Use copy/paste](https://github.com/aaron-dm-mcdonald/class6-planning-docs/blob/main/peering/simple-peering.txt) or...
     -  ```curl -O https://raw.githubusercontent.com/aaron-dm-mcdonald/class6-planning-docs/refs/heads/main/peering/simple-peering.txt```
