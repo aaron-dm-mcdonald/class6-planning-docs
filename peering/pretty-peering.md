@@ -12,12 +12,14 @@
 - Account ID: 
 - VPC ID: 
 - EC2 Private IP: 
+- Region: 
 
 ### Other Person
 - VPC CIDR: 
 - Account ID: 
 - VPC ID: 
 - EC2 Private IP: 
+- Region: 
 
 ## Steps
 1. **Create a custom VPC**: Specify your desired CIDR block.

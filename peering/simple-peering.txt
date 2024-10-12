@@ -1,4 +1,4 @@
-# Simple-peering.txt
+# simple-peering.txt
 
 AWS VPC Peering Planning Document
 ---------------------------------
@@ -8,7 +8,9 @@ Me:
 VPC CIDR: 
 Account ID: 
 VPC ID: 
+Region:
 EC2 Private IP:  
+ 
 
 ---------------------------------
 
@@ -18,6 +20,7 @@ VPC CIDR:
 Account ID: 
 VPC ID: 
 EC2 Private IP: 
+Region:
 
 ---------------------------------
 
